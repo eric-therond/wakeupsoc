@@ -1,5 +1,5 @@
 # wakeupsoc
-> A tool to test SOCs againt fake traffic through ToR
+> A tool to test SOCs against fake traffic through Tor
 
 ---
 ## Usage
@@ -8,8 +8,8 @@
     * NB_REQUEST : number of requests to send
     * REFRESH_IP : refresh IP every x requests
     * TIMEOUT : timeout in second for doing a request
-    * At line 58 the configuration of ToR
+    * At line 58 the configuration of Tor
 - In rules.js you can specify the fake traffic
-- In urls add your targets
-- Start ToR
-- node wakeupsoc.ks
+- In urls.ks add your targets
+- Start Tor
+- node wakeupsoc.js
