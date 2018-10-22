@@ -1,0 +1,21 @@
+{
+  "name": "wakeupsoc",
+  "version": "1.0.0",
+  "description": "wakeupsoc",
+  "author": "eric-therond",
+  "license": "MIT",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-eslint": "^10.0.1",
+    "brunch": "^2.10.12",
+    "eslint": "^5.7.0",
+    "eslint-config-google": "^0.11.0",
+    "javascript-brunch": "^2.10.0",
+    "less-brunch": "^2.10.0"
+  },
+  "dependencies": {
+    "request": "^2.87.0",
+    "urijs": "^1.19.1",
+    "tor-request": "^2.1.2"
+  }
+}
